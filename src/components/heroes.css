@@ -1,0 +1,36 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.heroes-card {
+    display: flex;
+    flex-direction: column;
+
+    height: 30%;
+    margin: 20px;
+    border: solid;
+    border-color: blueviolet;
+}
+
+.heroes-card img {
+    width: 100%;
+
+}
+
+.heroes-name {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.heroes-text {
+    font-size: 15px;
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+}
+
+.heroes-occupation {
+    font-size: 12px;
+}
